@@ -13,7 +13,7 @@ while True:
     if f_name == 'q':
         break
     l_name = input("Last Name: ")
-    if l_name == 'q':
+    if _name == 'q':
         break
     
     formatted_name = get_formatted_name(f_name, l_name)
