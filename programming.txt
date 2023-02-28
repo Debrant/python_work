@@ -1,0 +1,2 @@
+A simple test to check the script.
+A second line to check append.
