@@ -1,6 +1,6 @@
-from unittest import mock
-from unittest import TestCase
 import unittest
+from unittest import TestCase
+from unittest import mock
 from employee import Employee
 
 class TestEmployeeRaise(unittest.TestCase):
@@ -24,8 +24,8 @@ class TestEmployeeRaise(unittest.TestCase):
         self.assertEqual(self.test_employee.salary, 110000)
         
         
-class TestEmployeeWageUpdate(unittest.TestCase):
-    @mock.patch('Employee.update_salary.input', create=True)    
+#class TestEmployeeWageUpdate(unittest.TestCase):
+   # @patch('Employee.update_salary.input', create=True)    
     # def test_update_salary(self, mocked_input):
         # """Test update salary function."""
         # update_salary.side_effect = ['n', 120000, 'y']
