@@ -100,4 +100,4 @@ def roll_champion(NAME, role):
         print(name.upper() + "::  " + str(value))
          
         
-roll_champion(input("Name your character."), input("What is their class?"))
+roll_champion(input("Name your character.\n"), input("What is their class?\n"))
