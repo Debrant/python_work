@@ -16,6 +16,6 @@ def count_words(filename):
     
 # filename = input("Enter the file you want to analyze.")
 # count_words(filename) 
-filenames = ['alic.txt', 'programming.txt', 'sample.txt', 'swords.txt', 'swords2.txt']
+filenames = ['alice.txt', 'programming.txt', 'sample.txt', 'swords.txt', 'swords2.txt']
 for filename in filenames:
     count_words(filename) 
